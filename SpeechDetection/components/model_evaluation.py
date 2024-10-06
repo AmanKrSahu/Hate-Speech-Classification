@@ -19,7 +19,7 @@ class ModelEvaluation:
                  model_trainer_artifacts: ModelTrainerArtifacts,
                  data_transformation_artifacts: DataTransformationArtifacts):
         """
-        :param model_evaluation_config: Configuration for model eva            model = model_architecture.get_model() data transformation artifact stage
+        :param model_evaluation_config: Configuration for model evaluation
         :param model_trainer_artifacts: Output reference of model trainer artifact stage
         """
 
